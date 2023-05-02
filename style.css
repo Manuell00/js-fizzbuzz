@@ -31,18 +31,38 @@
     font-weight: 800;
 }
 
+.square:hover{
+    font-size: 30px;
+}
+
 .fizz{
     background-color: lightgreen;
+}
+
+.fizz:hover{
+    box-shadow:5px 10px #21d100
 }
 
 .buzz{
     background-color: orange;
 }
 
+.buzz:hover{
+    box-shadow:5px 10px #cc8400
+}
+
 .fizzBuzz{
     background-color: red;
 }
 
+.fizzBuzz:hover{
+    box-shadow:5px 10px lightcoral
+}
+
 .basic{
     background-color: dodgerblue;
+}
+
+.basic:hover{
+    box-shadow:5px 10px blue
 }
