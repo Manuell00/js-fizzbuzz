@@ -14,3 +14,35 @@
     font-size: 70px;
     font-weight: 600;
 }
+
+#contenitore{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(13% - 20px);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 10px;
+    font-weight: 800;
+}
+
+.fizz{
+    background-color: lightgreen;
+}
+
+.buzz{
+    background-color: orange;
+}
+
+.fizzBuzz{
+    background-color: red;
+}
+
+.basic{
+    background-color: dodgerblue;
+}
